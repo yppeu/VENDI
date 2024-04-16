@@ -296,9 +296,6 @@ header > h1 > a > img{
         padding: 0 16px;
         margin-bottom: 30px;
     }
-    .vendi-info-img > img{
-        width: 840px;
-    }
     .visual-text-box{
         top: 30%;
         left: 30%;
@@ -343,7 +340,7 @@ header > h1 > a > img{
         margin-bottom: 30px;
     }
     .vendi-info-img > img{
-        width: 389px;
+        width: 90%;
     }
     .vendi-sale-tit{
         font-size: 28px;
@@ -367,7 +364,7 @@ header > h1 > a > img{
         padding: 0 5px;
     }
     .vendi-info-card-box{
-        padding: 20px 20px;
+        padding: 20px 12px;
         margin-bottom: 10px;
     }
     .vendi-info-card-box:not(:last-child){

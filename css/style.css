@@ -1,0 +1,480 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    letter-spacing: -0.3px;
+    font-family: 'Pretendard-Regular';
+}
+
+/* 모바일 */
+.main-mvisual-wrap,
+.mvendi-provision-con,
+.mvendi-sale-con,
+.entrancefee-text-box > .m,
+.entrancefee-text-box > .m2,
+.recruitment-wrap > .container-wrap > .m3{
+    display: none;
+}
+
+
+/* 공통 */
+.container-wrap{
+    max-width: 1400px; 
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    padding: 100px 300px 0;
+}
+header > h1 > a > img{
+    max-width: 184px;
+}
+
+/* main */
+.main-visual-wrap{
+    position: relative;
+}
+.visual-img > img{
+    max-width: 100%;
+}
+.visual-text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.visual-text-box > h2{
+    font-size: 47px;
+    line-height: 1.2;
+    margin-bottom: 60px;
+}
+.visual-text-box > button{
+    font-size: 33px;
+    background: #004dca;
+    padding: 20px 53px;
+    color: #fff;
+    border-radius: 35px;
+    letter-spacing: -3px;
+    font-weight: bold;
+}
+
+/* main */
+.vendi-info-wrap{
+    background: #004dca;
+    color: #fff;
+    padding: 200px 0;
+}
+.vendi-provision-box{
+    margin-bottom: 70px;
+    text-align: center;
+}
+.vendi-provision-box > h3{
+    margin-bottom: 70px;
+    font-size: 62px;
+    font-weight: bold;
+}
+.vendi-provision-sec{
+    font-size: 47px;
+    font-weight: bold;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    margin-bottom: 33px;
+}
+.vendi-provision-con{
+    font-size: 28px;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    margin-bottom: 33px;
+}
+.vendi-sale-tit{
+    font-size: 47px;
+    font-weight: bold;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    margin-bottom: 33px;
+    text-align: center;
+}
+.vendi-sale-con{
+    font-size: 28px;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.vendi-info-card-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.vendi-info-card-box{
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 25px;
+}
+.vendi-info-card-box:not(:last-child){
+    margin-right: 30px;
+}
+.vendi-info-card-box > img{
+    width: 80px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.vendi-info-card-box > p:first-of-type{
+    color: #004dca;
+    padding-top: 30px;
+    margin-bottom: 16px;
+    border-top: 1px solid #c7c8c8;
+    font-weight: bold;
+}
+.vendi-info-card-box > p:last-of-type{
+    color: #404041;
+}
+.entrancefee-wrap{
+    background: #dfe7f4;
+}
+.entrancefee-wrap > .container-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 146px 0 124px;
+}
+.entrancefee-text-box > p:first-child{
+    font-size: 47px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #004dca;
+    margin-bottom: 30px;
+}
+.entrancefee-text-box > p:last-child{
+    font-size: 28px;
+    letter-spacing: -1px;
+    color: #404041;
+}
+.entrancefee-wrap > .container-wrap > img{
+    max-width: 600px;
+}
+.calculate-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 146px 0 124px;
+}
+.calculate-wrap > img{
+    width: 766px;
+}
+.calculate-text-box > p:nth-child(1){
+    font-size: 47px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #004dca;
+    margin-bottom: 30px;
+}
+.calculate-text-box > p:nth-child(2){
+    font-size: 36px;
+    letter-spacing: -1px;
+    color: #231f20;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+.calculate-text-box > p:nth-child(3){
+    font-size: 28px;
+    letter-spacing: -1px;
+    color: #6d6e71;
+    line-height: 1.6;
+}
+.owner-welcome-wrap{
+    background: #231f20;
+    color: #fff;
+    padding: 240px 0;
+}
+.owner-welcome-wrap .container-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.owner-welcome-wrap > p{
+    font-size: 47px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 86px;
+}
+.owner-welcome-box > img{
+    width: 40px;
+}
+.owner-welcome-box{
+    text-align: center;
+}
+.owner-welcome-box:not(:last-child){
+    margin-right: 188px;
+}
+.owner-welcome-box > img{
+    margin-bottom: 32px;
+}
+.owner-welcome-box > p:first-of-type{
+    font-size: 30px;
+    margin-bottom: 23px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+.owner-welcome-box > p:last-of-type{
+    font-size: 25px;
+    letter-spacing: -1px;
+    border-top: 1px solid #a7a5a6;
+    padding-top: 23px;
+}
+.recruitment-wrap{
+    background: #004dca;
+    color: #fff;
+    padding: 243px 0 190px;
+    text-align: center;
+}
+.recruitment-wrap > .container-wrap > h3{
+    font-size: 47px;
+    font-weight: bold;
+    margin-bottom: 33px;
+    letter-spacing: -1px;
+    line-height: 1.3;
+}
+.recruitment-wrap > .container-wrap > p{
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.recruitment-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.recruitment-btn > button{
+    color: #fff;
+    border-radius: 35px;
+    padding: 18px 98px;
+    font-size: 32px;
+    letter-spacing: -2.3px;
+    font-weight: bold;
+}
+.recruitment-btn > button:not(:last-child){
+    margin-right: 23px;
+}
+.recruitment-btn > button:first-child{
+    border: 1px solid #fff;
+}
+.recruitment-btn > button:last-child{
+    background: #fff;
+    color: #004dca;
+}
+
+
+
+/* 모바일 */
+@media screen and (min-width:340px) and (max-width:400px){
+    header{
+        display: none;
+    }
+    .main-visual-wrap{
+        display: none;
+    }
+    .main-mvisual-wrap{
+        display: block;
+        margin-top: 110px;
+    }
+    .visual-text-box{
+        width: 100%;
+    }
+    .visual-text-box > h2{
+        font-size: 32px;
+        padding: 0 16px;
+        margin-bottom: 30px;
+    }
+    .vendi-info-img > img{
+        width: 840px;
+    }
+    .visual-text-box{
+        top: 30%;
+        left: 30%;
+        transform: translate(-30%, -30%);
+    }
+    .visual-text-box > img{
+        display: block;
+        position: absolute;
+        bottom: 0;
+    }
+    .visual-text-box > button{
+        font-size: 20px;
+        padding:8px 50px;
+    }
+
+    
+    .vendi-info-wrap{
+        padding: 100px 0;
+    }
+    .vendi-provision-box > h3{
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    .vendi-provision-sec{
+        font-size: 26px;
+        width: 71%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    /* .vendi-provision-con{
+        font-size: 16px;
+        width: 69%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    } */
+    .vendi-provision-con{
+        display: none;
+    }
+    .mvendi-provision-con{
+        display: block;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .vendi-info-img > img{
+        width: 389px;
+    }
+    .vendi-sale-tit{
+        font-size: 28px;
+        width: 71%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+    .vendi-sale-con{
+        display: none;
+    }
+    .mvendi-sale-con{
+        display: block;
+        margin: 0 auto;
+        font-size: 16px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .vendi-info-card-wrap{
+        flex-wrap: wrap;
+        padding: 0 5px;
+    }
+    .vendi-info-card-box{
+        padding: 20px 20px;
+        margin-bottom: 10px;
+    }
+    .vendi-info-card-box:not(:last-child){
+        margin-right: 10px;
+    }
+    .vendi-info-card-box:nth-child(2){
+        margin-right: 0;
+    }
+    .vendi-info-card-box > img{
+        width: 60px;
+    }
+
+
+    .entrancefee-wrap > .container-wrap{
+        flex-direction: column;
+    }
+    .entrancefee-text-box > p:first-child{
+        font-size: 37px;
+    }
+    .entrancefee-text-box > .pc{
+        display: none;
+    }
+    .entrancefee-text-box > .m{
+        display: block;
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        color: #004dca;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .entrancefee-text-box > .m2{
+        display: block;
+        font-size: 17px !important;
+        letter-spacing: -1px;
+        color: #404041;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .entrancefee-wrap > .container-wrap > img{
+        width: 90%;
+    }
+
+
+    .calculate-wrap{
+        display: none;
+    }
+
+
+    .owner-welcome-wrap .container-wrap{
+        flex-direction: column;
+    }
+    .owner-welcome-wrap{
+        padding: 130px 0;
+    }
+    .owner-welcome-wrap > p{
+        font-size: 30px;
+        margin-bottom: 56px;
+    }
+    .owner-welcome-box{
+        margin-right: 0 !important;
+        margin-bottom: 100px;
+    }
+    .owner-welcome-box:last-child{
+        margin-bottom: 0;
+    }
+    .owner-welcome-box > p:first-of-type{
+        font-size: 26px;
+    }
+    .owner-welcome-box > p:last-of-type{
+        font-size: 19px;
+        font-weight: initial;
+        line-height: 1.5;
+        width: 55%;
+        margin: 0 auto;
+    }
+
+
+    .recruitment-wrap{
+        padding: 100px 0;
+    }
+    .recruitment-wrap > .container-wrap > h3{
+        font-size: 30px;
+        width: 76%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .recruitment-wrap > .container-wrap > .pc{
+        display: none;
+    }
+    .recruitment-wrap > .container-wrap > .m3{
+        display: block;
+        font-weight: initial;
+        font-size: 19px;
+        line-height: 1.5;
+        letter-spacing: -1px;
+    }
+    .recruitment-btn{
+        flex-direction: column;
+        align-items: center;
+    }
+    .recruitment-btn > button{
+        display: inline-block;
+        font-size: 18px;
+        margin-right: 0 !important;
+        padding: 10px 38px;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+}

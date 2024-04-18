@@ -18,7 +18,8 @@ body{
 .mvendi-sale-con,
 .entrancefee-text-box > .m,
 .entrancefee-text-box > .m2,
-.recruitment-wrap > .container-wrap > .m3{
+.recruitment-wrap > .container-wrap > .m3,
+.mimg{
     display: none;
 }
 
@@ -410,7 +411,39 @@ header > h1 > a > img{
 
 
     .calculate-wrap{
+        flex-direction: column;
+        padding-bottom: 0;
+        padding-top: 80px;
+    }
+    .calculate-wrap > img{
         display: none;
+    }
+    .mimg{
+        display: block !important;
+        width: 90% !important;
+    }
+    .calculate-text-box > p:first-child{
+        display: block;
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        color: #004dca;
+        margin-bottom: 10px;
+        text-align: center;
+        line-height: 1.4;
+    }
+    .calculate-text-box > p:nth-child(2){
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .calculate-text-box > p:last-child{
+        display: block;
+        font-size: 17px !important;
+        letter-spacing: -1px;
+        color: #808184;
+        text-align: center;
     }
 
 
